@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65a44b98f65c8633f14ce9bd0823bd14",
+    "revision": "2d5ec2eb0121d26dbf083d0bd95158ac",
     "url": "/timelapse-game/index.html"
   },
   {
-    "revision": "7faf28896839d8115ed5",
+    "revision": "4c88f9a0579d14c46f8a",
     "url": "/timelapse-game/static/css/main.e0432beb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/timelapse-game/static/js/2.fcb02124.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7faf28896839d8115ed5",
-    "url": "/timelapse-game/static/js/main.738822d9.chunk.js"
+    "revision": "4c88f9a0579d14c46f8a",
+    "url": "/timelapse-game/static/js/main.e5ec94c0.chunk.js"
   },
   {
     "revision": "a080e676bec296ae683a",
