@@ -11,7 +11,7 @@ const messages = [
   },
   {
     content: "how you doin",
-    date: 1593769523,
+    date: 1593769530,
     own: false,
   },
   {
@@ -42,17 +42,17 @@ const messages = [
   {
     content:
       "it's been pretty quiet here actually. working, playing games, playing with myself .. xD",
-    date: 1593770028,
-    own: false,
-  },
-  {
-    content: "tmi sorry 🙈",
     date: 1593770035,
     own: false,
   },
   {
+    content: "tmi sorry 🙈",
+    date: 1593770041,
+    own: false,
+  },
+  {
     content: "you there ?",
-    date: 1593770635,
+    date: 1593770535,
     own: false,
   },
 ];

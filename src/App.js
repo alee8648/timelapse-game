@@ -40,9 +40,6 @@ class App extends React.Component {
       currentTime: this.getTimeFromPercentage(event.target.value),
       timePercentage: parseInt(event.target.value),
     });
-
-    // Jump to msot recent messages
-    this.jumpToMostRecentMessage();
   };
 
   componentDidMount() {
@@ -54,6 +51,10 @@ class App extends React.Component {
         timeRange
       ),
     });
+    this.jumpToMostRecentMessage();
+  }
+
+  componentDidUpdate() {
     this.jumpToMostRecentMessage();
   }
 
@@ -89,7 +90,7 @@ class App extends React.Component {
               type="range"
               min="0"
               max="100"
-              step="4"
+              step="1"
               onChange={this.handleTimeChange}
               value={this.state.timePercentage}
             />
